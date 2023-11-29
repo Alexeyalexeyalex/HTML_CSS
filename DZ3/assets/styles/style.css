@@ -1,5 +1,42 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/OpenSans-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/OpenSans-Medium.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/OpenSans-SemiBold.ttf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/OpenSans-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/OpenSans-ExtraBold.ttf");
+    font-weight: 800;
+}
+html {
+    font-family: 'Open Sans';
+}
+
 *{
     margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+ul{
+    padding: 0;
 }
 
 .header-main{
@@ -17,7 +54,6 @@
 }
 .ul-header{
     display: flex;
-    font-family: Gilroy-SemiBold;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -44,8 +80,6 @@
 }
 .main-text{
     width: 495px;
-    font-family: Gilroy-Bold;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
     
@@ -53,30 +87,30 @@
 .h1-main{
     color: #000;
     font-size: 60px;
+    font-weight: 600;
 }
 .p-main{
     color: #888;
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-weight: 400;
 
 }
 
 .main-button-div{
     display: flex;
     align-items: center;
-    height: 100px;
     margin: 0 auto;
     margin-bottom: 35px;
 }
 
 .main-button-div p{
     color: #AAA;
-    font-family: Gilroy-Bold;
     font-size: 15px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal; 
+    font-weight: 400;
 }
 .main-button{
     width: 140px;
@@ -88,9 +122,7 @@
     margin-right: 30px;
 
     color: #FFF;
-    font-family: Gilroy-Bold;
     font-size: 15px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal; 
 }
