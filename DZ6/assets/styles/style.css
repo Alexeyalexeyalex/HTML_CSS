@@ -1,0 +1,276 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/OpenSans-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/OpenSans-Medium.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/OpenSans-SemiBold.ttf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/OpenSans-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/OpenSans-ExtraBold.ttf");
+    font-weight: 800;
+}
+html {
+    font-family: 'Open Sans';
+}
+
+*{
+    margin: 0;
+}
+
+/* Первый блок */
+header{
+    background-color:  #222;
+    display: flex;
+    justify-content:space-around;
+    min-height: 75px;
+}
+
+.logo_search{
+    display: flex;
+    gap: 41px;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+}
+
+.logo{
+    width: 44px;
+    height: 38px;
+}
+
+.search{
+    width: 26.002px;
+    height: 26.792px;
+}
+
+
+.menu_buttons{
+    display: flex;
+    gap: 33px;
+    align-items: center;
+    justify-content: center;
+
+    width: 20vw;
+
+}
+
+/* Второй блок */
+.image_header{
+    display: flex;
+    background-color: #F1E4E6;
+    align-items: center;
+    justify-content: center;
+}
+.first_img
+{
+    width: 800.58px;
+    height: 764px;
+}
+
+.image_header_text{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.rectungle_img{
+    width: 12px;
+    height: 92px;
+}
+
+.image_header_text_brand{
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.image_header_text_second{
+    display: flex;
+    gap: 10px;
+}
+
+.image_header_text_luxerous{
+    color: #222;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.image_header_text_fashion{
+    color: #F16D7F;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Третий блок */
+.theard_block{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 65px;
+}
+
+.theard_block_items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.theard_bloc_h3{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.theard_bloc_h2{
+    color: #F16D7F;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.theard_block_item{
+    display: flex;
+    flex-direction: column;
+    min-width: 360px;
+    min-height: 260px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.theard_block_item1{
+    background-image: url('../images/3_block_image1.svg');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    
+    
+}
+
+.theard_block_item2{
+    background-image: url('../images/3_block_image2.svg');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    
+}
+
+.theard_block_item3{
+    background-image: url('../images/3_block_image3.svg');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    
+    
+}
+
+.theard_block_item4{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/3_block_image4.svg');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    min-height: 180px;;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.fourth_preblock{
+    padding-top: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.fourth_preblock_h2{
+    color: #222;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+}
+.fourth_preblock_h4{
+    color: #9F9F9F;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+/* Четвертый блок */
+
+.fourth_block{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 30px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.fourth_block_item_text{
+    display: flex;
+    flex-direction: column;
+    max-width: 315px;
+    gap: 16px;
+    padding-top: 24px;
+}
+
+.fourth_block_h4{
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: normal;
+}
+.fourth_block_h4_text{
+    color: #5D5D5D;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: normal;
+}
+.fourth_block_h4_price{
+    color: #F16D7F;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.button{
+    display: flex;
+    padding-bottom: 60px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.my_button{
+    min-height: 48px;
+    min-width: 212px;
+    border-color: #FF6A6A;
+    background-color: #FFF;
+    border-style: solid;
+}
+
+.button_text{
+    color: #F26376;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
