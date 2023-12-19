@@ -150,6 +150,7 @@ header{
     grid-template-columns: repeat(3, auto);
     
     gap: 30px;
+    max-width: 100%;
     
     
     /* min-height: 180px; */
@@ -161,59 +162,116 @@ header{
     font-size: 16px;
     font-weight: 400;
     line-height: normal;
+
+    position: absolute;
+
+
 }
 
+.theard_bloc_h3_1{
+    bottom: 50%;
+    left: 40%;
+}
+.theard_bloc_h3_2{
+    bottom: 50%;
+    left: 40%;
+}
+.theard_bloc_h3_3{
+    bottom: 50%;
+    left: 35%;
+}
+.theard_bloc_h3_4{
+    bottom: 55%;
+    left: 42%;
+}
 .theard_bloc_h2{
     color: #F16D7F;
     font-size: 24px;
     font-weight: 700;
     line-height: normal;
+
+    position: absolute;
+
 }
+.theard_bloc_h2_1{
+    bottom: 40%;
+    left: 30%;
+}
+.theard_bloc_h2_2{
+    bottom: 40%;
+    left: 36%;
+}
+.theard_bloc_h2_3{
+    bottom: 40%;
+    left: 36%;
+}
+.theard_bloc_h2_4{
+    bottom: 40%;
+    left: 43%;
+}
+
 
 .theard_block_item{
     /* display: flex;
     flex-direction: column; */
-    min-width: 360px;
-    min-height: 260px;
+/* 
+
+    max-width: 360px;
+    max-height: 260px;
     align-items: center;
     justify-content: center;
-    object-fit: fill;
+    object-fit: fill; */
 
 }
 
 .theard_block_item1{
-    background-image: url('../images/3_block_image1.svg');
+    /* background-image: url('../images/3_block_image1.svg');
     background-repeat: no-repeat;
-    background-size:100% 100%;
+    background-size:100% 100%; */
     
+    position: relative;
+    text-align: center;
+    justify-content: center;
     
 }
 
 .theard_block_item2{
-    background-image: url('../images/3_block_image2.svg');
+    /* background-image: url('../images/3_block_image2.svg');
     background-repeat: no-repeat;
-    background-size:100% 100%;
+    background-size:100% 100%; */
+
+    position: relative;
+    text-align: center;
+    justify-content: center;
     
 }
 
 .theard_block_item3{
-    background-image: url('../images/3_block_image3.svg');
+    /* background-image: url('../images/3_block_image3.svg');
     background-repeat: no-repeat;
-    background-size:100% 100%;
+    background-size:100% 100%; */
+    
+    position: relative;
+    text-align: center;
+    justify-content: center;
     
     
 }
 
 .theard_block_item4{
-    display: grid;
-    grid-column: span 3;
-    background-image: url('../images/3_block_image4.svg');
+    /* display: grid;
+    grid-column: span 3; */
+    /* background-image: url('../images/3_block_image4.svg');
     background-repeat: no-repeat;
-    background-size:100% 100%;
-    min-height: 180px;
-    align-items: center;
+    background-size:100% 100%; */
+    /* max-height: 180px; */
+    /* align-items: center;
     justify-content: center;
-    align-content: center;
+    align-content: center; */
+
+    position: relative;
+    text-align: center;
+    justify-content: center;
     
 }
 
@@ -356,10 +414,10 @@ header{
     .theard_bloc_h2{
         font-size: 24px;
     }
-    /* .theard_block_item{
-        min-width: 250px;
-        min-height: 150px;
-    } */
+    .theard_block_item{
+        /* max-width: 250px;
+        max-height: 150px; */
+    }
 
  
 
