@@ -43,7 +43,6 @@ header{
     gap: 41px;
     align-items: center;
     justify-content: center;
-    width: 20vw;
 }
 
 .logo{
@@ -78,16 +77,16 @@ header{
     top: -6px;
     background-color: #F16D7F;
     color: #FFF;
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px 20px 20px 20px;
     font-size: 12px;
 }
 
-.cart_buy:hover::after{
+/* .cart_buy:hover::after{
     display: flex;
-}
+} */
 
 .main_menu{
     position: relative;
@@ -100,7 +99,7 @@ header{
     justify-content: center;
     align-items: center;
     gap: 11px;
-    border: 2px solid white;
+    border: 2px solid rgba(255, 255, 255, 0.438);
     color: black;
     background-color: #FFF;
     position: absolute;
@@ -484,7 +483,7 @@ header{
 /* Шестой блок */
 .six{
     height: 448px;
-    background-image: url('../images/6_block_image1.jpg');
+    background-image: url('../images/6_block_image1.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -726,6 +725,11 @@ header{
     }
 
     /* Шестой блок */
+    .six{
+        height: 693px;
+        
+    }
+
     .six_subblock{
         flex-direction: column;
         justify-content: center;
@@ -830,5 +834,13 @@ header{
     }
     .footer_h4{
         margin-bottom: 9px;
+    }
+
+    .six{
+        height: 550px;
+        
+    }
+    .cart_buy::after{
+        display: none;
     }
 }
